@@ -26,8 +26,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="18dp"
                     android:layout_gravity="start"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
                     android:text="Quote of the day !!" />
 
                 <ImageView
@@ -61,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:layout_gravity="start"
+                    android:textStyle="bold"
                     android:text="How you are feeling today!" />
 
                 <com.hsalf.smileyrating.SmileyRating
@@ -84,8 +87,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-                android:text="My Self help"
+                android:text="My Self-help Tools"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <TextView
@@ -97,7 +100,7 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_app_icon" />
+                android:src="@drawable/ic_tool" />
 
 
         </RelativeLayout>
@@ -131,6 +134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:textStyle="bold"
                 android:text="5 min Walk" />
         </LinearLayout>
 
@@ -161,7 +165,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:text="5 min Breathing" />
+                android:text="5 min Breathing"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -198,6 +203,7 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_marginTop="12dp"
+                      android:textStyle="bold"
                       android:text="5 min Journal" />
               </LinearLayout>
 
@@ -228,6 +234,7 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_marginTop="12dp"
+                      android:textStyle="bold"
                       android:text="Learn Something New!!" />
               </LinearLayout>
 
@@ -266,6 +273,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:textStyle="bold"
                         android:text="Reach out for Help" />
                 </LinearLayout>
 
@@ -296,7 +304,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Write your Worries" />
+                        android:text="Write your Worries"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -309,23 +318,23 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="20dp">
+            <!--
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reach Out for Help"
+                            android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Reach Out for Help"
-                android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16sp" />
-
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_app_icon" />
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/ic_app_icon" />-->
 
 
         </RelativeLayout>

@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -40,19 +39,18 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
         } else if (view.equals(vJournal)) {
             //launch walk screen
             startActivity(new Intent(this, journalActivity.class));
-            Toast.makeText(this, "launching Journal", Toast.LENGTH_SHORT).show();
+
         } else if (view.equals(vBreath)) {
             //launch walk screen
             startActivity(new Intent(this, TimerActivity.class));
-            Toast.makeText(this, "launching Breath", Toast.LENGTH_SHORT).show();
         } else if (view.equals(vLearn)) {
             //launch walk screen
             startActivity(new Intent(this, TimerActivity.class));
-            Toast.makeText(this, "Need to add fresco ievolve icons screen", Toast.LENGTH_SHORT).show();
+
         } else if (view.equals(vReach)) {
             //launch walk screen
+            startActivity(new Intent(this, FeatureDescActivity.class));
 
-            Toast.makeText(this, "Needed to add Reachout Screen", Toast.LENGTH_SHORT).show();
         } else if (view.equals(vWorry)) {
             //launch walk screen
             startActivity(new Intent(this, WriteWorriesActivity.class));
